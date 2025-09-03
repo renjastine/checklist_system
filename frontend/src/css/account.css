@@ -1,0 +1,289 @@
+.acc-modal {
+    background-color: #72727266;
+    justify-content: center;
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.acc-modal-wrap {
+    grid-template-columns: 30% 70%;
+    align-self: center;
+    display: grid;
+    height: 85vh;
+    width: 60vw;
+}
+
+.acc-modal-nav {
+    font-family: 'Poppins-Light';
+    background-color: #262626;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    display: flex;
+}
+
+.am-n-header{
+    padding-left: 1.5vw;
+    text-align: left;
+    font-size: 2.8vw;
+    width: 100%;
+}
+
+.acc-modal-nav .btn-prof{
+    transition: background-color 0.3s;
+    background-color: #3f3f3f;
+    border-radius: 0.2vw;
+    text-align: left;
+    font-size: 1.2vw;
+    padding-left: 1vw;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    height: 7vh;
+    width: 15vw;
+}
+
+.btn-prof:hover {background-color: #727272;}
+
+.acc-modal-nav-change {
+    border: 0.1vw solid #fff;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 0.3vw;
+    display: flex;
+    width: 83%; 
+}
+
+.acc-modal-nav-change .amnc-link {
+    background-color: #262626;
+    padding-left: 1vw;
+    font-size: 1.1vw;
+    text-align: left;
+    cursor: pointer;
+    color: #fff;
+    margin: 1vh 0;
+    border: none;
+    height: 5vh;
+}
+
+.amnc-link:hover {background-color: #4c4c4c;}
+
+.acc-modal-wrap .change-header {
+    box-sizing: border-box;
+    padding-inline: 1.5vw;
+    margin: 6vh 0 1vh;
+    font-size: 1vw;
+    width: 100%;
+}
+
+.acc-modal-content{
+    background-color: #fff;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    cursor: pointer;
+    font-size: 2vw;
+    right: 0.9vw;
+    top: 2vh;
+}
+
+.close-icon {
+    width: 2vw;
+}
+
+/* Profile Content */
+
+.profile {
+    flex-direction: column;    
+    align-items: center;
+    display: flex;
+}
+
+.profile-header{
+    font-family: 'Poppins-Light';
+    padding-left: 1.6vw;
+    font-size: 2.4vw;
+    width: 100%;
+}
+
+.task-comp {
+    font-family: 'Poppins-Light';
+    border: 1px solid #000;
+    width: 92%;
+}
+
+.task-header {
+    text-align: center;
+    margin-block: 2vh;
+    font-size: 1vw;
+}
+
+.task-wrap {
+    display: flex;
+    height: 15vh;
+}
+
+.task-label{
+    font-size: 1.2vw;
+}
+
+.today, .total {
+    text-align: center;
+    width: 50%;
+}
+
+.user-details {
+    font-family: 'Poppins-Light';
+    flex-direction: column;
+    margin-block: 5vh;
+    display: flex;
+    height: 17vw;
+    width: 92%;
+}
+
+.user-details .row {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding-top: 0.5vh;
+    padding-left: 1vw;
+    height: 25%;
+}
+
+.bold {
+    font-family: 'Poppins-Bold';
+    font-size: 1.1vw;
+}
+
+
+.pass-outline {
+    background-color: transparent;
+    font-size: 1.5vw;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.cursor:hover {background-color: #cccccc;}
+.top-corner {border-radius: 1vw 1vw 0 0;}
+.bot-corner {border-radius: 0 0 1vw 1vw;}
+#topless { border-top: none;}
+.ud-details {font-size: 1.1vw;}
+.cursor {cursor: pointer;}
+.num { font-size: 3vw;}
+
+/* Change Name & Username Content */
+.change-name {
+    flex-direction: column;
+    display: flex;
+}
+
+.cn-header {
+    font-family: 'Poppins-Light';
+    padding-left: 1.6vw;
+    font-size: 2.4vw;
+}
+
+.cn-content {
+    border: 0.1vw solid #000;
+    border-radius: 0.5vw;
+    padding-inline: 1vw;
+    align-self: center;
+    padding-block: 3vh;
+    margin-block: 15vh;
+    position: relative;
+    height: 18vh;
+    width: 91%;
+}
+
+.cn-c-taken, .cn-c-error{
+    font-family: 'Poppins-Light';
+    position: absolute;
+    font-size: 0.8vw;
+    color: red;
+    right: 1.5vw;
+    top: 1vh;
+}
+
+.cn-c-error {
+    top: -3vh;
+    right: 0;
+}
+
+.cn-c-header {
+    font-family: 'Poppins-Bold';
+    font-size: 1.2vw;
+}
+
+.cn-c-input {
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-size: 1.5vw;
+    outline: none;
+    height: 7vh;
+    width: 98%;
+}
+
+.cn-button {
+    background-color: #262626;
+    border-radius: 0.5vw;
+    align-self: center;
+    font-size: 1.3vw;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    height: 7vh;
+    width: 91%;
+}
+
+.cn-button:hover{background-color: #4c4c4c;}
+
+/* Change Password Content */
+.change-password {
+    flex-direction: column;
+    display: flex;
+}
+
+.cp-header {
+    font-family: 'Poppins-Light';
+    padding-left: 1.6vw;
+    font-size: 2.4vw;
+}
+
+.cp-content {
+    box-sizing: border-box;
+    align-self: center;
+    position: relative;
+    margin: 6vh 0;
+    height: 35vh;
+    width: 91%;
+}
+
+.cp-c-row {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding-inline: 1vw;
+    padding-block: 1vh;
+    height: 33%;
+}
+
+.no-top-border {border-top: none;}
+.bora-top {border-radius: 1vw 1vw 0 0;}
+.bora-bot {border-radius: 0 0 1vw 1vw;}
+
+.cp-c-input {
+    margin-top: 1vh;
+    font-size: 1.5vw;
+    outline: none;
+    border: none;
+    height: 4vh;
+    width: 99%;
+}
+
+.bor-bot {border-bottom: 0.1vw solid black;}

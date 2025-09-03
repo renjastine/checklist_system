@@ -1,0 +1,131 @@
+.chatbot-content {
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 12vw;
+}
+
+.c-chatbot{
+    box-shadow: 0 0.1vw 0.4vw #00000040;
+    background-color: #fff;
+    flex-direction: column;
+    border-radius: 0.3vw;
+    align-items: center;
+    margin-top: 5vh;
+    display: flex;
+    height: 88vh;
+    width: 50vw;
+}
+
+.c-chatbot * {
+    font-family: 'Poppins-Light';
+}
+
+.c-cb-header {
+    box-shadow: 0 0.2vh 0.2vw #00000040;
+    font-family: 'Poppins-Regular';
+    text-align: center;
+    line-height: 9.7vh;
+    font-size: 3vw;
+    height: 10vh;
+    width: 100%;
+}
+
+.hdr p {
+    margin: 0;
+}
+
+.ch {
+    grid-auto-rows: min-content;
+    grid-template-columns: auto;
+    grid-auto-flow: row-reverse;
+    padding-inline: 1.5vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 65vh;
+    display: grid;
+    row-gap: 2vh;
+    width: 46vw;
+}
+
+.msg {
+    height: fit-content;
+    width: fit-content;
+    max-width: 34vw;
+    white-space: pre-wrap;
+}
+
+.usr-b .msg{
+    background-color: #262626;
+    padding-inline: 1vw;
+    padding-block: 1vh;
+    border-radius: 1vw;
+    color: #fff;
+}
+
+.usr-st {
+    justify-content: flex-end;
+    padding-top: 3vh;
+    display: flex;
+}
+
+.ch-box-usr .usn {
+    text-align: right;
+}
+
+.ch-box-usr {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.usr-st .msg {
+    background-color: #d9d9d9;
+    padding-inline: 1vw;
+    padding-block: 1vh;
+    border-radius: 1vw;
+}
+
+.wr-ch {
+    margin: 4vh auto 0;
+    align-items: end;
+    display: flex;
+    height: 63vh;
+    width: 46vw;
+    
+}
+
+.ch-txt {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    width: 50vw;
+}
+
+.text{
+    font-family: 'Poppins-Light';
+    background-color: #d9d9d9;
+    padding-inline: 1vw;
+    border-radius: 1vw;
+    padding-block: 1vh;
+    margin-right: 1vw;
+    font-size: 17px;
+    outline: none;
+    height: 5.4vh;
+    resize: none;
+    border: none;
+    width: 39vw;
+}
+
+.s-btn {
+    border-radius: 0.5vw;
+    cursor: pointer;
+    border: none;
+    height: 5vh;
+    width: 5vw;
+}
+
+.s-b-send {
+    cursor: pointer;
+    width: 3vw;
+}

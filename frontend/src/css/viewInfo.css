@@ -1,0 +1,70 @@
+.view-info-modal {
+    background-color: #72727266;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.vim-content {
+    background-color: #fff;
+    padding-inline: 2vw;
+    position: relative;
+    height: 75%;
+    width: 55%;
+    padding-bottom: 4vh;
+    justify-content: space-evenly   ;
+}
+
+.vim-c-header {
+    font-family: 'Poppins-Regular';
+    font-size: 2vw;
+}
+
+.vim-c-box {
+    height: 30%;
+    font-family: 'Poppins-Light';
+    font-size: 1.2vw;
+}
+
+.half {
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.vim-c-desc {
+    justify-content: space-around;
+    font-family: 'Poppins-Light';
+    padding-block: 1vh;
+    height: 40%;
+    font-size: 1.2vw;
+}
+
+.vim-c-d-header {
+    margin-block: 1vh;
+}
+
+.vim-c-d-textarea {
+    font-family: 'Poppins-Light';
+    background-color: #d9d9d9;
+    padding-inline: 0.5vw;
+    border-radius: 0.5vw;
+    padding-block: 1vh;
+    font-size: 1vw;
+    outline: none;
+    border: none;
+    resize: none;
+    height: 90%;
+}
+
+.vim-c-name {
+    font-family: 'Poppins-Light';
+    font-size: 1.2vw;
+}
+
+
+

@@ -1,0 +1,95 @@
+.add-modal {
+    background-color: #72727266;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.task * {font-family: 'Poppins-Light';}
+
+.task {
+    background-color: #fff;
+    position: relative;
+    padding-top: 5vh;
+    width: 35%;
+    padding-inline: 2vw;
+    padding-block: 5vh;
+}
+
+.task .title {
+    border: none;
+    border-bottom: 1px solid #adacac;
+    margin-bottom: 4vh;
+    font-size: 2.5vw;
+    outline: none;
+    height: 10vh;
+    width: 20vw;
+}
+
+.task .row {
+    padding-block: 1vh;
+    line-height: 4.5vh;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row span {
+    font-size: 1.2vw;
+}
+
+.dropdown {
+    padding-left: 0.4vw;
+    font-size: 1vw;
+    width: 20vw;
+    height: 4vh;
+}
+
+.desc {
+    padding-block: 3vh;
+}
+
+.desc p{
+    font-size: 1.2vw;
+}
+
+.desc textarea{
+    background-color: #d9d9d9;
+    padding-inline: 0.5vw;
+    border-radius: 0.5vw;
+    padding-block: 0.5vw;
+    font-size: 1vw;
+    outline: none;
+    border: none;
+    resize: none;
+    height: 20vh;
+    width: 100%;
+    
+}
+
+.task .addTask {
+    font-family: 'Poppins-Regular';
+    background-color: #262626;
+    border-radius: 0.5vw;
+    margin: 2vh 0 0;
+    cursor: pointer;
+    font-size: 1vw;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 7vh;
+}
+
+.task .close {
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 1.5vw;
+    cursor: pointer;
+    right: 0.6vw;
+    top: 1.5vh;
+}

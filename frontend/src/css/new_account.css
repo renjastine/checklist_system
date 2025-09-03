@@ -1,0 +1,88 @@
+.new-account-modal {
+    background-color: #72727266;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.nam-create-account {
+    background-color: #fff;
+    flex-direction: column;
+    padding-inline: 3vw;
+    padding-block: 7vh;
+    position: relative;
+    display: flex;
+    height: 70%;
+    width: 30%;
+}
+
+.nam-ca-header {
+    font-family: 'Poppins-Light';
+    font-size: 2.3vw;
+}
+
+.nam-ca-close {
+    position: absolute;
+    width: 6%;
+    right: 0.3vw;
+    top: 1vh;
+}
+
+.nam-ca-c-close {
+    cursor: pointer;
+    width: 100%;
+}
+
+.nam-ca-row {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+}
+
+.nam-c-r-input, .nam-c-r-button {
+    background-color: #eeeeee;
+    border-radius: 0.5vw;
+    font-size: 1.1vw;
+    outline: none;
+    border: none;
+    height: 60%;
+    width: 100%;
+}
+
+.nam-c-r-button {
+    background-color: #262626;
+    cursor: pointer;
+    color: #fff;
+}
+
+.nam-ca-row.flex-c{
+    align-items: end;
+}
+
+.nam-c-a-message.flex-c{
+    font-family: 'Poppins-Light';
+    text-align: center;
+    font-size: 1vw;
+    color: red;
+}
+
+.nam-ca-icto {
+    padding-inline: 0.5vw;
+    font-size: 1vw;
+    width: 100%;
+    height: 10%;
+    outline: none;
+    border-radius: 0.5vw;
+}
+
+.nam-c-r-button:hover{background-color: #4c4c4c;}
+.nam-c-r-input {padding-left: 1vw;}

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.login {
+  justify-content: center;
+  display: flex;
+  height: 97vh;
+  width: 100%;
+}
+
+.l-t-flex {
+  flex-direction: column;
+  display: flex;
+}
+
+.l-title {
+  font-family: 'Poppins-Bold';
+  justify-content: center;
+  align-items: center;
+  color: #353333;
+  width: 65%;
+}
+
+.l-t-header {
+  font-size: 6vw;
+  text-align: center;
+}
+
+.l-t-office {
+  font-size: 3vw;
+}
+
+.l-form {
+  justify-content: center;
+  align-items: start;
+  width: 35%;
+}
+
+.l-form form {
+  box-shadow: 0 0 1vw rgba(0,0,0,0.2);
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 2vw;
+  border-radius: 1vw;
+  padding-top: 3vh;
+  display: flex;
+  height: 65%;
+  width: 80%;
+}
+
+.l-f-message {
+  font-family: 'Poppins-Light';
+  text-align: center;
+  font-size: 1.3vw;
+  color: red;
+}
+
+.l-f-header {
+  font-family: 'Poppins-Bold';
+  align-self: start;
+  margin-block: 3vh;
+  font-size: 2.5vw;
+}
+
+.l-f-row {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  height: 15%;
+}
+
+.l-f-input, .l-f-button {
+  height: 65%;
+  width: 23vw;
+}
+
+.l-f-input.text {
+  background-color: #f0efef;
+  border-radius: 0.4vw;
+  padding-left: 0.7vw;
+  font-size: 1.1vw;
+  margin-right: 0;
+  border: none;
+}
+
+.l-f-button {
+  font-family: 'Poppins-Regular';
+  border-radius: 0.4vw;
+  font-size: 1.2vw;
+  cursor: pointer;
+  border: none;
+}
+
+.l-f-button.login {
+  background-color: #262626;
+  color: #fff;
+}
+
+.l-f-button.new-account {
+  background-color: #595959;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.l-f-button.new-account:hover {background-color: #8c8c8c;}
+.l-f-button.login:hover {background-color: #4c4c4c;}
+.border-top {border-top: 0.2vw solid black;}
